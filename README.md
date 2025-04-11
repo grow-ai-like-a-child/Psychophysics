@@ -24,7 +24,7 @@ In **cognitive psychology**, **Stroop** and **Flanker** tasks are widely used to
 - **Experiment results** from one or multiple runs  
 - **Data analysis and visualization** (e.g., violin plots, summary statistics)
 
-Researchers and students can use these scripts to quickly replicate standard Stroop or Flanker tasks, modify them for specific research questions, and analyze the performance of human participants or computational models.
+Even if our team use these tasks to test VLM, researchers and students can use these scripts to quickly replicate standard Stroop or Flanker tasks, modify them for specific research questions, and analyze the performance of human participants or computational models.
 
 ---
 
@@ -84,8 +84,6 @@ psychophysic/
   - `overall_accuracy`  
   - `match_type`  
   - `type`  
-
-Depending on your study design, you can store additional details or metrics in this file (e.g., reaction times, trial-by-trial data).
 
 ---
 
@@ -174,8 +172,6 @@ An example of how the data might be organized:
 - **group_accuracy**: Accuracy for that specific condition.  
 - **overall_accuracy**: Overall accuracy across multiple conditions (if applicable).  
 - **match_type** & **type**: Additional meta-information about the trial or condition (e.g., `ensemble_match`, `image_only`, or other labels).
-
-You can expand this table to store reaction times (`RT`), error types, or other metrics relevant to your study.
 
 ---
 
