@@ -65,14 +65,14 @@ psychophysic/
   Contains scripts that generate experimental parameters or condition files (e.g., lists of trials, conditions, etc.) for different variations of the Flanker and Stroop tasks.
 
 - **Final experiment image extraction/**:  
-  Scripts like `Origin-flanker.py`, `Origin-stroop.py`, and `squared-flanker.py` handle the final organization or extraction of stimuli used in the experiments (e.g., resizing or cropping images, renaming files for standardization).
+  Scripts like `Origin_flanker.py`, `Origin_stroop.py`, and `squared_flanker.py` handle the final organization or extraction of stimuli used in the experiments (e.g., resizing or cropping images, renaming files for standardization).
 
 - **Image generator/**:  
-  Scripts (`flanker-image-generator.py`, `Stroop-image-generator.py`, etc.) used to programmatically create the stimulus images (letters, shapes, numbers, colors, or any other visual stimuli required).
+  Scripts (`flanker_image_generator.py`, `Stroop_image_generator.py`, etc.) used to programmatically create the stimulus images (letters, shapes, numbers, colors, or any other visual stimuli required).
 
 - **Violin generator/**:  
   Contains analysis and plotting scripts. This includes **violin plots**, which are a powerful way to visualize data distributions, along with summary statistics or other plot types (e.g., boxplots, bar charts).  
-  - `Graph Summary.py` is an example script that can produce summary figures from the collected data.
+  - `Graph_Summary.py` is an example script that can produce summary figures from the collected data.
 
 ### 2. `Data/` Directory
 
@@ -103,7 +103,7 @@ psychophysic/
      Additional libraries may be required depending on the scripts you plan to run (e.g., `scipy` for statistical tests).
 
 3. **Verify Installation**  
-   - Run a small script (e.g., `python flanker-image-generator.py`) to confirm everything is installed and functioning correctly.
+   - Run a small script (e.g., `python flanker_image_generator.py`) to confirm everything is installed and functioning correctly.
 
 ---
 
@@ -112,7 +112,7 @@ psychophysic/
 Below is a brief overview of some core scripts. For each specific script, please refer to the inline comments or docstrings in the code for details on parameters and usage.
 
 1. **Data Generator**  
-   - `flanker-generater.py` & `Stroop-generator.py`:  
+   - `flanker_generater.py` & `Stroop_generator.py`:  
      - Purpose: Create condition or trial definition files for Flanker or Stroop tasks.  
      - Usage (example):  
        ```bash
@@ -122,7 +122,7 @@ Below is a brief overview of some core scripts. For each specific script, please
        This might produce an output like `flanker_conditions.csv`.
 
 2. **Image Generator**  
-   - `flanker-image-generator.py` & `Stroop-image-generator.py`:  
+   - `flanker_image_generator.py` & `Stroop_image_generator.py`:  
      - Purpose: Dynamically generate PNG/JPG images for the experiments, controlling for stimuli type, color, shape, etc.  
      - Usage (example):  
        ```bash
@@ -132,18 +132,18 @@ Below is a brief overview of some core scripts. For each specific script, please
        The generated images are saved to a specified directory, which can be customized in the script.
 
 3. **Final Experiment Image Extraction**  
-   - Scripts like `Origin-flanker.py`, `Origin-stroop.py`, or `squared-flanker.py`:  
+   - Scripts like `Origin_flanker.py`, `Origin_stroop.py`, or `squared_flanker.py`:  
      - Purpose: Post-process or reorganize images for the experiment (e.g., cropping, rotating, renaming).  
      - Usage:  
        ```bash
        cd Code/Final\ experiment\ image\ extraction
        python Origin-flanker.py
        ```
-       These scripts often rely on pre-existing images from the `Image generator` step.
+       These scripts often rely on pre-existing images from the `Image_generator` step.
 
 4. **Violin Generator**  
-   - `Graph Summary.py`:  
-     - Purpose: Load data (often from `Psychophysics-run.xlsx` or other CSV/Excel files), perform some summary calculations, and generate violin plots or other visualizations.  
+   - `Graph_Summary.py`:  
+     - Purpose: Load data (often from `Psychophysics_run.xlsx` or other CSV/Excel files), perform some summary calculations, and generate violin plots or other visualizations.  
      - Usage:  
        ```bash
        cd Code/Violin\ generator/Violin\ generator
@@ -155,7 +155,7 @@ Below is a brief overview of some core scripts. For each specific script, please
 
 ## Data Description
 
-### `Psychophysics-run.xlsx`
+### `Psychophysics_run.xlsx`
 
 An example of how the data might be organized:
 
@@ -178,15 +178,15 @@ An example of how the data might be organized:
 ## Visualization & Analysis
 
 1. **Violin Plots**  
-   - Scripts in the `Violin generator` folder can produce violin plots, allowing you to see the distribution of performance (accuracy, RT) across different conditions or models.  
-   - Adjust the script to color-code conditions or group them by category (e.g., `Stroop Congruent vs. Incongruent`).
+   - Scripts in the `Violin_generator` folder can produce violin plots, allowing you to see the distribution of performance (accuracy, RT) across different conditions or models.  
+   - Adjust the script to color-code conditions or group them by category (e.g., `Stroop_Congruent_vs_Incongruent`).
 
 2. **Summary Statistics**  
    - Use pandas (`pd.DataFrame`) to compute summary measures like mean, median, standard deviation, or perform basic significance tests (e.g., t-tests, ANOVA) using `scipy.stats`.  
    - Export results to `.csv` or `.xlsx` files for further analysis.
 
 3. **Sample Visual Output**  
-   - A typical workflow would load `Psychophysics-run.xlsx` into a pandas DataFrame, filter or group by condition, then generate a violin plot or boxplot to compare conditions.
+   - A typical workflow would load `Psychophysics_run.xlsx` into a pandas DataFrame, filter or group by condition, then generate a violin plot or boxplot to compare conditions.
 
 ---
 
