@@ -1,7 +1,3 @@
-Below is a suggested **README** in English, with an expanded and more detailed structure. Feel free to adjust any sections to meet your specific needs:
-
----
-
 # Psychophysics Experiments (Stroop & Flanker)
 
 This project focuses on a set of **psychophysics tasks**, particularly variations of the **Stroop** and **Flanker** experiments. It provides scripts for generating stimulus images, preparing experiment parameters, running the experiments, and performing statistical analyses and visualizations on the resulting data.
