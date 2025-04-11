@@ -1,0 +1,2 @@
+= RESTART: E:/psychophysic/生成violin/新存/Congruent vs Incongruent/Average over 3 tasks/Average over 3 tasks （Con vs Incon）.py
+Paired t-test (Congruent vs. Incongruent): t=17.436, p=4.8e-33, star=****

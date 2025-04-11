@@ -1,0 +1,3 @@
+[Stroop] Fully Congruent vs. Fully Incongruent -> t=6.931, p=3.280e-10, star=****
+[Stroop] Fully Incongruent vs. Stimulus Congruent, Response Incongruent -> t=-6.744, p=8.138e-10, star=****
+[Stroop] Stimulus Congruent, Response Incongruent vs. Stimulus Incongruent, Response Congruent -> t=7.092, p=1.491e-10, star=****

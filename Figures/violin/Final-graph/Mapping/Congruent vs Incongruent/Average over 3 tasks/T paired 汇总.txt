@@ -1,0 +1,37 @@
+Congruent vs Incongruent/Average over 3 tasks：
+t=17.436, p=4.8e-33, star=****
+
+[Flanker Letter] Paired t-test (Congruent vs. Incongruent): 
+t=17.879, p=6.47e-34, star=****
+
+[Flanker Number] Paired t-test (Congruent vs. Incongruent): 
+t=16.849, p=7.09e-32, star=****
+
+[Stroop] Paired t-test (Congruent vs. Incongruent): 
+t=8.994, p=9.61e-15, star=****
+
+
+
+Four Condition Comparisions\Average over 3 tasks：
+Fully Congruent vs. Fully Incongruent -> t=7.102, p=1.421e-10, star=****
+Fully Incongruent vs. Stimulus Congruent, Response Incongruent -> t=-6.509, p=2.511e-09, star=****
+Stimulus Congruent, Response Incongruent vs. Stimulus Incongruent, Response Congruent -> t=-3.543, p=5.877e-04, star=***
+
+Four Condition Comparisions\Flanker Letter
+[Flanker Letter] Fully Congruent vs. Fully Incongruent -> t=6.053, p=2.137e-08, star=****
+[Flanker Letter] Fully Incongruent vs. Stimulus Congruent, Response Incongruent -> t=-0.857, p=3.932e-01, star=n.s.
+[Flanker Letter] Stimulus Congruent, Response Incongruent vs. Stimulus Incongruent, Response Congruent -> t=-6.903, p=3.751e-10, star=****
+
+Four Condition Comparisions\Flanker Number
+[Flanker Number] Fully Congruent vs. Fully Incongruent -> t=6.934, p=3.225e-10, star=****
+[Flanker Number] Fully Incongruent vs. Stimulus Congruent, Response Incongruent -> t=-3.351, p=1.113e-03, star=**
+[Flanker Number] Stimulus Congruent, Response Incongruent vs. Stimulus Incongruent, Response Congruent -> t=-6.379, p=4.645e-09, star=****
+
+Four Condition Comparisions\Stroop
+[Stroop] Fully Congruent vs. Fully Incongruent -> t=6.931, p=3.280e-10, star=****
+[Stroop] Fully Incongruent vs. Stimulus Congruent, Response Incongruent -> t=-6.744, p=8.138e-10, star=****
+[Stroop] Stimulus Congruent, Response Incongruent vs. Stimulus Incongruent, Response Congruent -> t=7.092, p=1.491e-10, star=****
+
+
+
+

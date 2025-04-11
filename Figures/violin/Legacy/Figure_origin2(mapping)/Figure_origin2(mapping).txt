@@ -1,0 +1,1 @@
+Friedman statistic = 50.978, p = 4.9458e-11

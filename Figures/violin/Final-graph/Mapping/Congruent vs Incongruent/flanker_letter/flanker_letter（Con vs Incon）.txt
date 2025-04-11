@@ -1,0 +1,1 @@
+[Flanker Letter] Paired t-test (Congruent vs. Incongruent): t=17.879, p=6.47e-34, star=****

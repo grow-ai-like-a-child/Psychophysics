@@ -1,0 +1,4 @@
+=================== RESTART: E:\psychophysic\生成violin\新存\Four Condition Comparisions\Average over 3 tasks\Average over 3 tasks.py ==================
+Fully Congruent vs. Fully Incongruent -> t=7.102, p=1.421e-10, star=****
+Fully Incongruent vs. Stimulus Congruent, Response Incongruent -> t=-6.509, p=2.511e-09, star=****
+Stimulus Congruent, Response Incongruent vs. Stimulus Incongruent, Response Congruent -> t=-3.543, p=5.877e-04, star=***

@@ -1,0 +1,1 @@
+[Stroop] Paired t-test (Congruent vs. Incongruent): t=8.994, p=9.61e-15, star=****

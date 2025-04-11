@@ -1,0 +1,3 @@
+[Flanker Number] Fully Congruent vs. Fully Incongruent -> t=6.934, p=3.225e-10, star=****
+[Flanker Number] Fully Incongruent vs. Stimulus Congruent, Response Incongruent -> t=-3.351, p=1.113e-03, star=**
+[Flanker Number] Stimulus Congruent, Response Incongruent vs. Stimulus Incongruent, Response Congruent -> t=-6.379, p=4.645e-09, star=****
