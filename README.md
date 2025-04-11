@@ -217,10 +217,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-- **Project Author / Maintainer**: [Your Name / Lab / Organization]  
-- **Email**: [Your Contact Email]  
-- **Institution/Company**: [Your Institution or Company]  
-- **Website / Profile**: [Link to personal or lab website, if available]
+- **Project Author / Maintainer**: [Maijunxian Wang / Grow AI like a child]  
+- **Email**: [mjxwang@ucdavis.edu]  
+- **Institution/Company**: [University of California, Davis]  
+- **Website / Profile**: [(https://scholar.google.com/citations?user=LexR7uoAAAAJ&hl=en)]
 
 If you have questions regarding experiments, data analysis, or potential collaborations, feel free to reach out.
 
