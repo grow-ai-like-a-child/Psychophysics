@@ -217,20 +217,7 @@ Please ensure your contributions are well-documented and tested.
 
 ## License
 
-If this project is intended to be openly shared, consider using an open-source license such as the **MIT License** or the **Apache License 2.0**. If not otherwise specified, the following sample text can be used:
-
-```
-MIT License
-
-Copyright (c) [Year] [Author/Organization]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-...
-```
-
-For more details on choosing a license, please refer to [Choose a License](https://choosealicense.com/).
-
----
+This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
