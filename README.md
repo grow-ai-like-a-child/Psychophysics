@@ -1,10 +1,6 @@
-Below is a suggested **README** in English, with an expanded and more detailed structure. Feel free to adjust any sections to meet your specific needs:
-
----
-
 # Psychophysics Experiments (Stroop & Flanker)
 
-This project focuses on a set of **psychophysics tasks**, particularly variations of the **Stroop** and **Flanker** experiments. It provides scripts for generating stimulus images, preparing experiment parameters, running the experiments, and performing statistical analyses and visualizations on the resulting data.
+This project focuses on a set of **psychophysics tasks** for VLM, particularly variations of the **Stroop** and **Flanker** experiments. It provides scripts for generating stimulus images, preparing experiment parameters, running the experiments, and performing statistical analyses and visualizations on the resulting data.
 
 ## Table of Contents
 
@@ -28,7 +24,7 @@ In **cognitive psychology**, **Stroop** and **Flanker** tasks are widely used to
 - **Experiment results** from one or multiple runs  
 - **Data analysis and visualization** (e.g., violin plots, summary statistics)
 
-Researchers and students can use these scripts to quickly replicate standard Stroop or Flanker tasks, modify them for specific research questions, and analyze the performance of human participants or computational models.
+Even if our team use these tasks to test VLM, researchers and students can use these scripts to quickly replicate standard Stroop or Flanker tasks, modify them for specific research questions, and analyze the performance of human participants or computational models.
 
 ---
 
@@ -88,8 +84,6 @@ psychophysic/
   - `overall_accuracy`  
   - `match_type`  
   - `type`  
-
-Depending on your study design, you can store additional details or metrics in this file (e.g., reaction times, trial-by-trial data).
 
 ---
 
@@ -179,8 +173,6 @@ An example of how the data might be organized:
 - **overall_accuracy**: Overall accuracy across multiple conditions (if applicable).  
 - **match_type** & **type**: Additional meta-information about the trial or condition (e.g., `ensemble_match`, `image_only`, or other labels).
 
-You can expand this table to store reaction times (`RT`), error types, or other metrics relevant to your study.
-
 ---
 
 ## Visualization & Analysis
@@ -221,27 +213,14 @@ Please ensure your contributions are well-documented and tested.
 
 ## License
 
-If this project is intended to be openly shared, consider using an open-source license such as the **MIT License** or the **Apache License 2.0**. If not otherwise specified, the following sample text can be used:
-
-```
-MIT License
-
-Copyright (c) [Year] [Author/Organization]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-...
-```
-
-For more details on choosing a license, please refer to [Choose a License](https://choosealicense.com/).
-
----
+This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-- **Project Author / Maintainer**: [Your Name / Lab / Organization]  
-- **Email**: [Your Contact Email]  
-- **Institution/Company**: [Your Institution or Company]  
-- **Website / Profile**: [Link to personal or lab website, if available]
+- **Project Author / Maintainer**: [Maijunxian Wang / Grow AI like a child]  
+- **Email**: [mjxwang@ucdavis.edu]  
+- **Institution/Company**: [University of California, Davis]  
+- **Website / Profile**: [(https://scholar.google.com/citations?user=LexR7uoAAAAJ&hl=en)]
 
 If you have questions regarding experiments, data analysis, or potential collaborations, feel free to reach out.
 
