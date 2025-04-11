@@ -5,11 +5,11 @@ This project focuses on a set of **psychophysics tasks** for VLM, particularly v
 ## Table of Contents
 
 1. [Overview](#overview)  
-2. [Directory Structure](#directory-structure)  
-3. [Getting Started](#getting-started)  
-4. [Scripts and Usage](#scripts-and-usage)  
-5. [Data Description](#data-description)  
-6. [Visualization & Analysis](#visualization--analysis)  
+2. [Directory Structure](#directory_structure)  
+3. [Getting Started](#getting_started)  
+4. [Scripts and Usage](#scripts_and_usage)  
+5. [Data Description](#data_description)  
+6. [Visualization & Analysis](#visualization_analysis)  
 7. [Contributing](#contributing)  
 8. [License](#license)
 
@@ -117,7 +117,7 @@ Below is a brief overview of some core scripts. For each specific script, please
      - Usage (example):  
        ```bash
        cd Code/Data\ generator
-       python flanker-generater.py
+       python flanker_generater.py
        ```
        This might produce an output like `flanker_conditions.csv`.
 
@@ -127,7 +127,7 @@ Below is a brief overview of some core scripts. For each specific script, please
      - Usage (example):  
        ```bash
        cd Code/Image\ generator
-       python flanker-image-generator.py
+       python flanker_image_generator.py
        ```
        The generated images are saved to a specified directory, which can be customized in the script.
 
