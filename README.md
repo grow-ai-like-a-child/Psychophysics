@@ -36,26 +36,26 @@ A typical layout after unzipping the repository looks like this:
 psychophysic/
 ├── Code/
 │   ├── Data generator/
-│   │   ├── flanker-generater.py
-│   │   ├── Stroop-generator.py
+│   │   ├── flanker_generater.py
+│   │   ├── Stroop_generator.py
 │   │   └── ...
 │   ├── Final experiment image extraction/
-│   │   ├── Origin-flanker.py
-│   │   ├── Origin-stroop.py
-│   │   ├── squared-flanker.py
+│   │   ├── Origin_flanker.py
+│   │   ├── Origin_stroop.py
+│   │   ├── squared_flanker.py
 │   │   └── ...
 │   ├── Image generator/
-│   │   ├── flanker-image-generator.py
-│   │   ├── Stroop-image-generator.py
+│   │   ├── flanker_image_generator.py
+│   │   ├── Stroop_image_generator.py
 │   │   └── ...
 │   └── Violin generator/
 │       ├── Summary violin/
 │       │   └── ...
 │       └── Violin generator/
-│           └── Graph Summary.py
+│           └── Graph_Summary.py
 │
 └── Data/
-    ├── Psychophysics-run.xlsx
+    ├── Psychophysics_run.xlsx
     └── ...
 ```
 
