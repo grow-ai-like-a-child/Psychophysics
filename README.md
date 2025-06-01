@@ -218,8 +218,8 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 - **Project Author / Maintainer**: [Maijunxian Wang / Grow AI like a child]  
-- **Email**: [mjxwang@ucdavis.edu]  
-- **Institution/Company**: [University of California, Davis]  
+- **Email**: [mjxwang@berkeley.edu]  
+- **Institution/Company**: [University of California, Berkeley]  
 - **Website / Profile**: [(https://scholar.google.com/citations?user=LexR7uoAAAAJ&hl=en)]
 
 If you have questions regarding experiments, data analysis, or potential collaborations, feel free to reach out.
